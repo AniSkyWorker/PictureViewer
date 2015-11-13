@@ -150,10 +150,16 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Buttons.h" />
+    <ClInclude Include="Picture.h" />
+    <ClInclude Include="PictureViewer.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Buttons.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Picture.cpp" />
     <ClCompile Include="PictureViewer.cpp" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
